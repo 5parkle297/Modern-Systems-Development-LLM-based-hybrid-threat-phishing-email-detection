@@ -1,0 +1,53 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+python-dotenv==1.0.0
+
+# email parsing
+mail-parser==3.15.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# SPF/DKIM validation
+pyspf==2.0.2
+dnspython==2.4.2
+
+# features & ML
+numpy==1.24.3
+scikit-learn==1.3.2
+sentence-transformers==2.2.2
+transformers==4.35.2
+torch==2.1.0
+huggingface-hub==0.23.5
+
+# LLM API
+openai==1.3.5
+anthropic==0.7.7
+google-generativeai==0.3.1
+
+# RAG / vector store
+langchain==0.0.350
+langchain-community==0.0.5
+faiss-cpu==1.7.4
+chromadb==0.4.18
+
+# text processing
+nltk==3.8.1
+tqdm==4.66.1
+
+# multimodal image
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# optional db
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+
+# utilities
+aiofiles==23.2.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+

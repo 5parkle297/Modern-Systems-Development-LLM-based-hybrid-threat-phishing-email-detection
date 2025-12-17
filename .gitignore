@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node
+node_modules/
+dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local
+
+# 数据文件
+data/emails/*
+!data/emails/.gitkeep
+data/models/*
+!data/models/.gitkeep
+
+# 其他
+.DS_Store
+*.pyc
+
