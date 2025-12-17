@@ -1,8 +1,8 @@
-# 基于LLM的混合威胁钓鱼邮件检测系统
+# 现代系统开发——基于LLM的混合威胁钓鱼邮件检测系统
 
 ## 项目简介
 
-本项目整合了多个GitHub开源仓库，构建了一个完整的基于LLM（大语言模型）的混合威胁钓鱼邮件检测系统。系统能够检测传统钓鱼攻击、LLM生成的钓鱼攻击以及混合攻击链。
+本项目完全由gpt-5-1-codex在cursor plan模式下规划具体开发技术栈，整合多个GitHub开源仓库，再由claude-sonnnet-4.5进行开发与debug，构建了一个完整的基于LLM（大语言模型）的混合威胁钓鱼邮件检测系统。系统能够检测传统钓鱼攻击、LLM生成的钓鱼攻击以及混合攻击链。
 
 ## 功能特性
 
@@ -50,13 +50,6 @@
 
 ```
 Pnishing/
-├── repositories/              # 克隆的原始仓库
-│   ├── llm-email-spam-detection/
-│   ├── Email-phishing-detection/
-│   ├── Phishing-Detection-System-with-RAG-and-LLM-Integration/
-│   ├── sample-fine-tuned-llama-phishing-classifier/
-│   ├── Multimodal_LLM_Phishing_Detection/
-│   └── PhishLLM/
 ├── backend/                   # FastAPI后端
 │   ├── app/
 │   │   ├── api/              # API路由
